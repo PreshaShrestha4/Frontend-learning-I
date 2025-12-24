@@ -1,0 +1,28 @@
+#heading {
+  color: chartreuse;
+}
+#first,
+#second {
+  color: red;
+}
+.third {
+  color: brown;
+  background-color: yellow;
+}
+.fourth {
+  color: purple;
+  background-color: lightgray;
+}
+h1 {
+  color: red;
+  background-color: burlywood;
+}
+button {
+  color: thistle;
+  background-color: blueviolet;
+}
+h4 {
+  height: 30px;
+  width: 100px;
+  background-color: lightgreen;
+}

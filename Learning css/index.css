@@ -1,0 +1,79 @@
+h2 {
+  color: chartreuse;
+}
+small {
+  color: purple;
+}
+/* * {
+  color: crimson; universal selector that menas we dont define style color like in h1,p,sma//,h2
+} */
+#Selector {
+  color: brown;
+}
+#random_text {
+  color: brown;
+}
+.first {
+  color: orangered;
+}
+.random_text2 {
+  color: orangered;
+}
+h1,
+h2,
+h3 {
+  color: cyan;
+}
+
+#random_text,
+.random_text2 {
+  color: hotpink;
+}
+#first p {
+  color: limegreen;
+}
+div h4 {
+  color: teal;
+}
+#icon {
+  height: 500px;
+  width: 500px;
+  background-image: url(myntra.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+}
+#box1 {
+  background-color: lightcoral;
+  visibility: visible;
+  text-align: center;
+}
+#box2 {
+  background-color: lightseagreen;
+  text-align: right;
+}
+#box3 {
+  background-color: green;
+  text-align: left;
+}
+#head {
+  background-color: yellow;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-transform: uppercase;
+}
+#link {
+  text-decoration: none;
+}
+.artical {
+  font-size: 12px;
+  /* font-weight: 900;
+  font-style: italic; */
+  font-family: poppins, sans-serif;
+}

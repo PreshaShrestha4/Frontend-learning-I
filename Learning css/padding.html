@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Padding property</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .pad {
+      height: 50px;
+      width: 50px;
+      padding: 2px;
+      /* padding: 10px 10px 5px 20px; /* top right bottom left, padding:10px also */
+      /* margin: 5px 5px 5px 5px; /* margin:5px also */
+      /* background-color: lightgray; */
+    }
+    #first {
+      border: 2px solid black;
+      margin: 5px 5px 5px 5px;
+      background-color: lightblue;
+      box-sizing: border-box;
+    }
+    #second {
+      margin: 5px 5px 5px 5px;
+      border: 3px dashed red;
+      background-color: lightblue;
+      border-radius: 5px;
+    }
+    #third {
+      border: 3px dotted yellow;
+      background-color: lightblue;
+      padding: 5px;
+      margin: 5px;
+    }
+    #button1 {
+      padding: 10px;
+      margin: 5px;
+      background-color: lightblue;
+      border-radius: 3px;
+    }
+  </style>
+  <body>
+    <div id="first" class="pad">First</div>
+    <div id="second" class="pad">Second</div>
+    <div id="third" class="pad">Third</div>
+    <button id="button1">Submit</button>
+  </body>
+</html>
