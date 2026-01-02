@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript with HTMS and CSs</title>
+    <style>
+      .class-button {
+        color: red;
+      }
+      #id-button {
+        color: green;
+      }
+      .bad-button {
+        background-color: rgb(193, 223, 193);
+        border-radius: 10px;
+        padding: 5px 15px;
+        border: none;
+      }
+      .whishlist-button {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 5px 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <button class="class-button">Click</button>
+      <button id="id-button">ID button</button>
+      <button class="class-button">class button</button><br />
+      <hr />
+      <button class="bad-button" onclick="alert('Added to Bag')">
+        Add to bag
+      </button>
+      <button
+        class="whishlist-button"
+        onclick="alert('Item has been added to wishlist')"
+      >
+        ♥️Wishlist
+      </button>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, facere?
+      </p>
+    </main>
+    <script>
+      //   alert("welcome buddy");
+    </script>
+  </body>
+</html>
