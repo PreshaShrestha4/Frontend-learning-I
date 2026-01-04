@@ -117,15 +117,8 @@
         <!-- FIXED = BUTTON -->
         <button
           class="button"
-          onclick="
-            try {
-              currentDisplay = eval(currentDisplay);
-              document.querySelector('#display').value = currentDisplay;
-            } catch {
-              document.querySelector('#display').value = 'Error';
-              currentDisplay = '';
-            }
-          "
+          onclick="currentDisplay = eval(currentDisplay);
+          document.querySelector('#display').value = currentDisplay;"
         >
           =
         </button>
