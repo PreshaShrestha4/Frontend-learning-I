@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance Functions</title>
+  </head>
+  <body>
+    <button id="my-button">Click me</button>
+    <script>
+      //For each loop
+      let arr = [3, 5, 7, 9];
+      for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+      }
+
+      arr.forEach((num) => console.log(num));
+
+      function search(arr, num) {
+        for (let i = 0; i < arr.length; i++) {
+          if (arr[i] === num) {
+            console.log(`element found at ${1}`);
+            return;
+          }
+        }
+        console.log("Element was not found");
+      }
+      search(arr, 10);
+
+      //event listener
+      //   let buttonElement = document.querySelector("#my-button");
+      //   let behaviour = (event) => console.log("i m clicked");
+      //   buttonElement.addEventListener("click", behaviour);
+
+      //   let printDate = (event) => console.log(new Date());
+      //   buttonElement.addEventListener("click", printDate);
+
+      //   buttonElement.removeEventListener("click", behaviour);
+
+      //Anonymous Functions As value and this is bina name ko functio ho
+      //   let sum = function (num1, num2) {
+      //     return num1 + num2;
+      //   };
+      //   sum(4, 5);
+      //   let newSum = sum;
+      //   console.log(sum(4, 5));
+      //   console.log(newSum(4, 5));
+
+      //example
+      //((4 + 5)+ 7)
+
+      // Higher-order function (Function as parameter)
+      //   let sumThreeNumbers = function (num1, num2, num3, sumTwoNumbers) {
+      //     let sum1 = sumTwoNumbers(num1, num2);
+      //     return sumTwoNumbers(sum1, num3);
+      //   };
+      //   console.log(sumThreeNumbers(4, 5, 6, sum)); // output: 15
+
+      //   console.log(sumThreeNumbers);
+      //   console.log(typeof sumThreeNumbers);
+
+      //Arrow function
+      //   let sum = (num1, num2) => {
+      //     return num1 + num2;
+      //   };
+      //   console.log(sum(3, 5));
+
+      //   let square = (num) => {
+      //     return num * num;
+      //   };
+      //   console.log(square(10));
+
+      //or,optional
+      //   let square = (num) => num * num;
+      //   console.log(square(10));
+
+      //setTimeout and SetInterval
+      //   let alarm = function () {
+      //     console.log("Good Morning , Uthana chado");
+      //   };
+      //   setTimeout(alarm, 5000);
+      //   console.log("Alaram set");
+
+      //or
+      //   setTimeout(() => console.log("Good Morning , Uthana chado"), 5000);
+      //   console.log("Alaram set");
+
+      //timeout, cancel
+      //   let alarm = () => console.log("Good Morning", "Utha chado");
+      //   let timerId = setTimeout(alarm, 10000);
+      //   console.log(`Alarm set with timerId: ${timerId}`);
+      //   clearTimeout(timerId);
+
+      //SetInterval
+      //   let alarm = () =>
+      //     console.log(`Good Morning", "Utha chado. ${new Date()}`);
+      //   let timerId = setTimeout(alarm, 10000);
+      //   console.log(`Alarm set with timerId: ${timerId}`);
+      //   clearTimeout(timerId);
+
+      //   let intervalId = setInterval(alarm, 1000);
+      //   setTimeout(() => clearInterval(intervalId), 5000);
+    </script>
+  </body>
+</html>
